@@ -20,6 +20,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Initial Planning phase
+
+Requirements:
+
+- Create an interface to input prompts
+- The interface will then show multiple LLM responses side by side
+- Have metrics for each LLM response for grading (Accuracy, Relevancy, Response time)
+- Create a Database to store user prompts and experiment results
+- Create an Analytical Dashboard to visual performances for each prompts and LLMs
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
